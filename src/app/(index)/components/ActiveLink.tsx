@@ -14,7 +14,7 @@ export default function ActiveLink({ href, children, ...props }: ActiveLinkProps
 		<Link
 			href={href}
 			data-active={active}
-			className="px-3 relative py-1.5 text-gray-500 data-[active=true]:text-blue-500 data-[active=false]:hover:text-blue-300"
+			className="px-3 relative py-1.5 text-lg text-gray-500 data-[active=true]:text-blue-500 data-[active=false]:hover:text-blue-300"
 			{...props}>
 			{children}
 			{active && (
