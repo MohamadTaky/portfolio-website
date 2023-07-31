@@ -1,5 +1,5 @@
 "use client";
-import { motion, useMotionValue } from "framer-motion";
+import { motion } from "framer-motion";
 import Link, { LinkProps } from "next/link";
 import { usePathname } from "next/navigation";
 import { HTMLAttributes } from "react";
