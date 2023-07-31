@@ -1,4 +1,3 @@
-"use client";
 import ActiveLink from "./ActiveLink";
 
 const routes = [
