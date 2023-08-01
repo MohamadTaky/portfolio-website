@@ -13,9 +13,11 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="h-fill-available">
-      <body className={`dark grid grid-rows-[auto_1fr] h-full bg-gray-900 text-white ${inter.className}`}>
+      <body className={`dark grid h-full grid-rows-[auto_1fr] bg-gray-900 text-white ${inter.className}`}>
         <Navbar />
-        <main>{children}</main>
+        <main className="scrollbar-rounded-md overflow-auto scrollbar-thin scrollbar-thumb-indigo-600">
+          {children}
+        </main>
       </body>
     </html>
   );

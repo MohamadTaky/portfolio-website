@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 @layer utilities {
-	.h-fill-available {
-		height: fill-available;
-	}
+  .h-fill-available {
+    height: fill-available;
+  }
+  .scrollbar-rounded-sm::-webkit-scrollbar-thumb {
+    @apply rounded-sm;
+  }
+  .scrollbar-rounded-md::-webkit-scrollbar-thumb {
+    @apply rounded-md;
+  }
+  .scrollbar-rounded-lg::-webkit-scrollbar-thumb {
+    @apply rounded-lg;
+  }
 }
