@@ -5,7 +5,7 @@ import { TriangleIcon, GithubIcon, InstagramIcon, FacebookIcon } from "lucide-re
 
 export default function HeroSection() {
   return (
-    <section className="flex h-full w-fit flex-col items-center gap-4 p-4">
+    <section className="flex h-full w-fit flex-col items-center gap-4">
       <h1 className="mt-12 text-4xl font-bold leading-relaxed">
         Hello world :&#41; <br />
         I'm Mohamad Taky, <br />

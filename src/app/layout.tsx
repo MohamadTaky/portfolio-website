@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="h-fill-available">
       <body className={`dark grid h-full grid-rows-[auto_1fr] bg-gray-900 text-white ${inter.className}`}>
         <Navbar />
-        <main className="scrollbar-rounded-md overflow-auto scrollbar-thin scrollbar-thumb-indigo-600">
+        <main className="scrollbar-rounded-md overflow-auto scrollbar-thin scrollbar-thumb-indigo-600 p-4">
           {children}
         </main>
       </body>
