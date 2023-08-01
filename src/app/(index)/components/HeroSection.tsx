@@ -15,7 +15,7 @@ export default function HeroSection() {
         className="absolute inset-0 -z-10 object-cover"
       />
       <div className="flex flex-col gap-4 p-4">
-        <h1 className="p-4 text-xl font-bold leading-relaxed text-white sm:text-2xl md:text-3xl">
+        <h1 className="p-4 text-xl font-bold !leading-loose text-white sm:text-2xl md:text-3xl">
           Hello world :&#41; <br />
           I'm Mohamad Taky, <br />
           Front end web developer.
