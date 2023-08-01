@@ -9,7 +9,7 @@ const routes = [
 
 export default function Navbar() {
 	return (
-		<nav className="border-b shadow-md flex">
+		<nav className="shadow-lg flex">
 			{routes.map(({ label, href }) => {
 				return (
 					<ActiveLink key={href} href={href}>
