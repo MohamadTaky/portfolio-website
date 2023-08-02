@@ -4,7 +4,7 @@
 
 @layer utilities {
   .h-fill-available {
-    height: fill-available;
+    height: stretch;
   }
   .scrollbar-rounded-sm::-webkit-scrollbar-thumb {
     @apply rounded-sm;
