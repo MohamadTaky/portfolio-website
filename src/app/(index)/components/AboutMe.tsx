@@ -1,9 +1,10 @@
 import Button from "@/components/Button";
 import Section from "@/components/Section";
+import Link from "next/link";
 
 export default function AboutMe() {
   return (
-    <Section className="container my-8 space-y-4">
+    <Section>
       <h2 className="mx-auto w-fit border-b-2 border-black pb-2 text-3xl font-semibold">About me</h2>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
         <div>
@@ -23,7 +24,9 @@ export default function AboutMe() {
             eos, illo recusandae debitis accusamus nulla odit excepturi alias maxime?
           </p>
           <div className="flex items-center justify-center gap-4">
-            <Button>Read more</Button>
+            <Button asChild>
+              <Link href="/about">Read more</Link>
+            </Button>
             <span className="grid h-8 w-8 place-items-center rounded-full bg-black/80 p-1 text-white">
               or
             </span>

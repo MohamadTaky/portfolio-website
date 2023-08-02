@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import Section from "@/components/Section";
+import Link from "next/link";
 
 export default function RecentProjects() {
   return (
@@ -23,7 +24,9 @@ export default function RecentProjects() {
         </div>
         <div className="flex flex-col items-center rounded-md border-b-2 bg-red-500 p-2">
           <div className="m-auto">placeholder (screenshot)</div>
-          <Button>View all</Button>
+          <Button asChild>
+            <Link href="/projects">View all</Link>
+          </Button>
         </div>
       </div>
     </Section>

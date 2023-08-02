@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import Section from "@/components/Section";
+import Link from "next/link";
 
 export default function ContactMe() {
   return (
@@ -10,7 +11,9 @@ export default function ContactMe() {
           I would love to hear from you, <br />
           get in touch
         </h3>
-        <Button className="mx-auto">Contact me</Button>
+        <Button className="mx-auto" asChild>
+          <Link href="/contact">Contact me</Link>
+        </Button>
       </div>
     </Section>
   );

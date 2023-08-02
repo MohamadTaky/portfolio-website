@@ -1,15 +1,16 @@
 import cn from "@/utils/cn";
+import { Slot } from "@radix-ui/react-slot";
 import { VariantProps, cva } from "class-variance-authority";
-import { ButtonHTMLAttributes, Ref, forwardRef } from "react";
+import { ForwardedRef, HTMLAttributes, forwardRef } from "react";
 
 const buttonVariants = cva(
-  "rounded-md text-sm md:text-base flex items-center justify-center cursor-pointer",
+  "rounded-md text-sm md:text-base flex w-fit items-center justify-center cursor-pointer",
   {
     variants: {
       variant: {
         primary: "bg-black/80 hover:bg-black/90 active:bg-black transition text-white",
-        secondary: "",
         inverted: "text-black bg-white transition",
+        secondary: "",
       },
       size: {
         default: "px-3 py-1.5 gap-1.5",
@@ -24,10 +25,18 @@ const buttonVariants = cva(
   }
 );
 
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & VariantProps<typeof buttonVariants>;
+type ButtonProps = { asChild?: boolean } & HTMLAttributes<HTMLButtonElement> &
+  VariantProps<typeof buttonVariants>;
 
-function Button({ className, size, variant, children, ...props }: ButtonProps, ref: Ref<HTMLButtonElement>) {
-  return (
+function Button(
+  { variant, size, asChild, children, className, ...props }: ButtonProps,
+  ref: ForwardedRef<HTMLButtonElement>
+) {
+  return asChild ? (
+    <Slot ref={ref} className={cn(buttonVariants({ variant, size, className }))} {...props}>
+      {children}
+    </Slot>
+  ) : (
     <button ref={ref} className={cn(buttonVariants({ variant, size, className }))} {...props}>
       {children}
     </button>

@@ -9,7 +9,7 @@ import Section from "@/components/Section";
 
 export default function MySkills() {
   return (
-    <Section className="container my-8 space-y-4">
+    <Section className="mt-0 pt-8" id="skills">
       <h2 className="mx-auto w-fit border-b-2 border-black pb-2 text-3xl font-semibold">My skills</h2>
       <ul className="mx-auto grid w-fit grid-cols-1 justify-items-center gap-4 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
         <li className="flex aspect-square w-36 flex-col items-center justify-between rounded-lg border p-2 shadow-md">

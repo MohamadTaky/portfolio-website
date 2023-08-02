@@ -20,12 +20,14 @@ export default function HeroSection() {
           I'm Mohamad Taky, <br />
           Front end web developer.
         </h1>
-        <Button variant="inverted" className="group mx-auto mt-4">
-          View more
-          <TriangleIcon
-            size="10"
-            className="rotate-180 fill-current transition-transform group-hover:translate-y-0.5"
-          />
+        <Button asChild variant="inverted" className="group mx-auto mt-4">
+          <Link href="/#skills">
+            View more
+            <TriangleIcon
+              size="10"
+              className="rotate-180 fill-current transition-transform group-hover:translate-y-0.5"
+            />
+          </Link>
         </Button>
         <div className="m-auto mb-0 flex justify-between gap-4">
           <Link target="_blank" href="https://github.com/MohamadTaky">
