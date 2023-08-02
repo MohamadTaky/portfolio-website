@@ -45,7 +45,7 @@ export default function ContactPage() {
                 href="https://www.instagram.com/mohamad__taky/"
               >
                 <div className="box-content inline rounded-full bg-black/80 p-3">
-                  <LinkedinIcon className="h-5 w-5 fill-current text-gray-500 transition group-hover:text-blue-800" />
+                  <LinkedinIcon className="h-5 w-5 fill-current text-gray-500 transition group-hover:text-blue-700" />
                 </div>
                 Linked in
               </Link>

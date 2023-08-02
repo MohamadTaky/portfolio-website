@@ -1,8 +1,7 @@
 import Button from "@/components/Button";
-import Link from "next/link";
+import { GithubIcon, LinkedinIcon, TriangleIcon } from "lucide-react";
 import Image from "next/image";
-import GoogleLogo from "public/google-logo.svg";
-import { TriangleIcon, GithubIcon, InstagramIcon, FacebookIcon } from "lucide-react";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -33,14 +32,8 @@ export default function HeroSection() {
           <Link target="_blank" href="https://github.com/MohamadTaky">
             <GithubIcon className="fill-gray-300 stroke-none transition hover:fill-white" />
           </Link>
-          <Link target="_blank" href="https://www.instagram.com/mohamad__taky">
-            <InstagramIcon className="text-gray-300 transition hover:text-orange-500" />
-          </Link>
           <Link target="_blank" href="https://www.facebook.com/mohamadtaky">
-            <FacebookIcon className="fill-gray-300 stroke-none transition hover:fill-blue-500" />
-          </Link>
-          <Link target="_blank" href="https://www.facebook.com/mohamadtaky">
-            <GoogleLogo className="h-6 w-6 fill-gray-300 stroke-none transition hover:fill-red-500" />
+            <LinkedinIcon className="fill-gray-300 stroke-none transition hover:fill-blue-700" />
           </Link>
         </div>
       </div>
