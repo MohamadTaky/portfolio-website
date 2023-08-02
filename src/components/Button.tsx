@@ -3,7 +3,7 @@ import { VariantProps, cva } from "class-variance-authority";
 import { ButtonHTMLAttributes, Ref, forwardRef } from "react";
 
 const buttonVariants = cva(
-  "rounded-md text-sm md:text-base inline-flex items-center justify-center cursor-pointer",
+  "rounded-md text-sm md:text-base flex items-center justify-center cursor-pointer",
   {
     variants: {
       variant: {
