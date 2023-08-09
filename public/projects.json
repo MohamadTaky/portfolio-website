@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "name": "Type Fusion",
+    "description": "Type Fusion is a web application that tests your typing speed and accuracy and gives you an overview about your performance, the app also features a simple leaderboard that lists the top ten users based on the score of their latest performed test.",
+    "homepage": "https://typefusion.vercel.app",
+    "tags": ["Mongodb", "Express", "React", "Node"],
+    "screenshots": []
+  },
+  {
+    "id": 1,
+    "name": "Sky Sentry",
+    "description": "Weather web application project built with react and Open&#8209;Meteo weather forecast API",
+    "homepage": "https://sky-sentry.vercel.app",
+    "tags": ["React", "Tailwindcss"],
+    "screenshots": []
+  },
+  {
+    "id": 2,
+    "name": "Werdi",
+    "description": "",
+    "homepage": "https://werdi.vercel.app",
+    "tags": ["Next.js 13", "Tailwindcss", "Prisma"],
+    "screenshots": []
+  }
+]
