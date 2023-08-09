@@ -3,6 +3,9 @@ import HeroSection from "./(index)/components/HeroSection";
 import MySkills from "./(index)/components/MySkills";
 import RecentProjects from "./(index)/components/RecentProjects";
 import ContactMe from "./(index)/components/ContactMe";
+import Project from "./projects/components/Project";
+import projects from "public/projects.json";
+import Section from "@/components/Section";
 
 export default function HomePage() {
   return (
@@ -10,7 +13,7 @@ export default function HomePage() {
       <HeroSection />
       <MySkills />
       <AboutMe />
-      <RecentProjects />
+      <RecentProjects/>
       <ContactMe />
     </>
   );

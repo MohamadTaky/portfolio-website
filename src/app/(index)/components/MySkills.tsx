@@ -1,10 +1,10 @@
-import HtmlLogo from "public/html-logo.svg";
-import CssLogo from "public/css-logo.svg";
-import JavascriptLogo from "public/javascript-logo.svg";
-import ReactLogo from "public/react-logo.svg";
-import NextjsLogo from "public/nextjs-logo.svg";
-import TailwindcssLogo from "public/tailwindcss-logo.svg";
-import TypescriptLogo from "public/typescript-logo.svg";
+import HtmlLogo from "public/images/html-logo.svg";
+import CssLogo from "public/images/css-logo.svg";
+import JavascriptLogo from "public/images/javascript-logo.svg";
+import ReactLogo from "public/images/react-logo.svg";
+import NextjsLogo from "public/images/nextjs-logo.svg";
+import TailwindcssLogo from "public/images/tailwindcss-logo.svg";
+import TypescriptLogo from "public/images/typescript-logo.svg";
 import Section from "@/components/Section";
 
 export default function MySkills() {

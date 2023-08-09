@@ -8,7 +8,7 @@ export default function HeroSection() {
     <section className="relative grid h-4/5 grid-cols-1 justify-items-center border-b-2 border-gray-400 md:grid-cols-[auto_1fr]">
       <Image
         priority
-        src="/hero-background.png"
+        src="/images/hero-background.png"
         alt="background"
         fill
         className="absolute inset-0 -z-10 object-cover"
@@ -20,7 +20,7 @@ export default function HeroSection() {
           Front end web developer.
         </h1>
         <Button asChild variant="inverted" className="group mx-auto mt-4">
-          <Link href="/#skills">
+          <Link scroll href="/#skills">
             View more
             <TriangleIcon
               size="10"
