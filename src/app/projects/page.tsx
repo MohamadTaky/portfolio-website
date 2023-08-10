@@ -1,6 +1,11 @@
 import Section from "@/components/Section";
 import Project from "./components/Project";
 import projects from "public/projects.json";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects",
+};
 
 export default async function ProjectsPage() {
   return (

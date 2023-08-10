@@ -19,7 +19,7 @@ export default function HeroSection() {
           I'm Mohamad Taky, <br />
           Front end web developer.
         </h1>
-        <Button asChild variant="inverted" className="group mx-auto mt-4">
+        <Button asChild variant="inverted" className="group mx-auto mt-auto">
           <Link scroll href="/#skills">
             View more
             <TriangleIcon
@@ -28,7 +28,7 @@ export default function HeroSection() {
             />
           </Link>
         </Button>
-        <div className="m-auto mb-0 flex justify-between gap-4">
+        <div className="mx-auto mb-0 flex justify-between gap-4">
           <Link target="_blank" href="https://github.com/MohamadTaky">
             <GithubIcon className="fill-gray-300 stroke-none transition hover:fill-white" />
           </Link>

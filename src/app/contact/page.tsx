@@ -2,7 +2,12 @@ import Button from "@/components/Button";
 import Input from "@/components/Input";
 import Section from "@/components/Section";
 import { GithubIcon, LinkedinIcon, PhoneCallIcon } from "lucide-react";
+import { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Contact",
+};
 
 export default function ContactPage() {
   return (
