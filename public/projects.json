@@ -1,35 +1,50 @@
 [
   {
-    "id": 0,
-    "name": "Type Fusion",
-    "description": "Type Fusion is a web application that tests your typing speed and accuracy while giving you an overview about your performance, the app also features a simple leaderboard that lists the top ten users based on the score of their latest performed test.",
-    "homepage": "https://typefusion.vercel.app",
-    "tags": ["Mongodb", "Express", "React", "Node"],
-    "screenshots": [
-      "/images/projects/type-fusion-1.png",
-      "/images/projects/type-fusion-2.png",
-      "/images/projects/type-fusion-3.png",
-      "/images/projects/type-fusion-4.png"
-    ]
+    "id": 2,
+    "name": "Taky Chess",
+    "description": "Online multiplayer chess game made with Next.js and web sockets using Pusher.js and Redis.",
+    "homepage": "https://taky-chess.vercel.app",
+    "githubRepo": "https://github.com/MohamadTaky/taky-chess",
+    "tags": [
+      { "name": "Next.js", "link": "https://nextjs.org" },
+      { "name": "Tailwindcss", "link": "https://tailwindcss.com" },
+      { "name": "Redis", "link": "https://redis.io" },
+      { "name": "Pusher", "link": "https://pusher.com" }
+    ],
+    "screenshots": ["/images/projects/taky-chess-1.png"]
   },
   {
     "id": 1,
     "name": "Sky Sentry",
-    "description": "Weather web application project built with react and Open&#8209;Meteo weather forecast API",
+    "description": "front end Weather web application built using react and Open&#8209;Meteo weather forecast API.",
     "homepage": "https://sky-sentry.vercel.app",
-    "tags": ["React", "Tailwindcss"],
-    "screenshots": [
-      "/images/projects/sky-sentry-1.jpg",
-      "/images/projects/sky-sentry-2.png",
-      "/images/projects/sky-sentry-3.png"
-    ]
+    "githubRepo": "https://github.com/MohamadTaky/Sky-Sentry",
+    "tags": [
+      { "name": "React", "link": "https://react.dev" },
+      { "name": "Tailwindcss", "link": "https://tailwindcss.com" }
+    ],
+    "screenshots": ["/images/projects/sky-sentry-1.jpg"]
   },
   {
-    "id": 2,
-    "name": "Werdi",
-    "description": "",
-    "homepage": "https://werdi.vercel.app",
-    "tags": ["Next.js 13", "Tailwindcss", "Prisma"],
-    "screenshots": []
+    "id": 0,
+    "name": "Type Fusion",
+    "description": "Type Fusion is a web application that tests typing speed and accuracy while giving an overview about typing performance, the app also features a simple leaderboard that lists the top ten users based on the score of their latest performed test.",
+    "homepage": "https://typefusion.vercel.app",
+    "githubRepo": "https://github.com/MohamadTaky/type-fusion",
+    "tags": [
+      { "name": "Mongodb", "link": "https://www.mongodb.com" },
+      { "name": "Express", "link": "https://expressjs.com" },
+      { "name": "React", "link": "https://react.dev" },
+      { "name": "Node.js", "link": "https://nodejs.org" }
+    ],
+    "screenshots": ["/images/projects/type-fusion-1.png"]
+  },
+  {
+    "id": 3,
+    "name": "Tetris",
+    "description": "The popular game of Tetris recreated in the browser using vanilla JS (typescript), mobile support included.",
+    "homepage": "https://taky-tetris.vercel.app",
+    "githubRepo": "https://github.com/MohamadTaky/taky-tetris",
+    "screenshots": ["/images/projects/tetris-1.png"]
   }
 ]

@@ -11,11 +11,7 @@ module.exports = {
     container: {
       center: true,
       padding: "1rem",
-    },
-    screens: {
-      xs: "320px",
-      ...defaultTheme.screens,
-    },
+    }
   },
   plugins: [require("tailwind-scrollbar"), require("@tailwindcss/forms")],
 };

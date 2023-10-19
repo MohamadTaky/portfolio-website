@@ -1,8 +1,7 @@
-import AboutMe from "./(index)/components/AboutMe";
-import ContactMe from "./(index)/components/ContactMe";
-import HeroSection from "./(index)/components/HeroSection";
-import MySkills from "./(index)/components/MySkills";
-import RecentProjects from "./(index)/components/RecentProjects";
+import AboutMe from "@/components/home/AboutMe";
+import HeroSection from "@/components/home/HeroSection";
+import MySkills from "@/components/home/MySkills";
+import RecentProjects from "@/components/home/RecentProjects";
 
 export default function HomePage() {
   return (
@@ -11,7 +10,6 @@ export default function HomePage() {
       <MySkills />
       <AboutMe />
       <RecentProjects />
-      <ContactMe />
     </>
   );
 }
