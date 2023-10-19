@@ -12,11 +12,12 @@ export default function AboutPage() {
     <Section container className="w-fit leading-7">
       <h2 className="text-3xl font-semibold">Hi there !</h2>
       <p className="max-w-[70ch]">
-        Here are some more information about who I am and what I like to do <br />
-        some of these are just personal information and interests.
+        Here is some additional information about who I am and what I like to do;
+        <br />
+        some of these details include personal information and interests.
       </p>
       <p className="max-w-[70ch]">
-        If you just want to see my resume, you can download it from{" "}
+        If you just want to view my resume, you can download it from{" "}
         <CustomLink className="text-blue-700" href="images/developer-illustration.jpg" download>
           here.
         </CustomLink>
@@ -29,15 +30,15 @@ export default function AboutPage() {
         <h2 className="w-fit border-b-2 border-black text-xl font-semibold">Technical details</h2>
         <p className="max-w-[70ch]">
           I&apos;ve been learning web development for about two years
-          <br />I feel confident in HTML, CSS, Javascript and I use React for my personal projects
+          <br />I feel confident in HTML, CSS and Javascript, and I use React for my personal projects
           <br />
-          in addition to my experience with React, I have stumbled upon{" "}
+          in addition to my experience with React, I have come across{" "}
           <CustomLink target="_blank" className="text-blue-700" href="https://nextjs.org">
             Next.js 13
           </CustomLink>{" "}
-          (the React framework as they call themselves) which brings significant improvements to development workflows and
-          codebases with the help of its intuitive routing system and performance capabilities and I&apos;ve been using it to
-          build my latest project which you can find{" "}
+          (the React framework as they call themselves) which brings significant improvements to the development workflow and
+          codebase with the help of its intuitive routing system and performance capabilities and I&apos;ve been using it to build
+          my latest project which you can find{" "}
           <CustomLink target="_blank" className="text-blue-700" href="https://taky-chess.vercel.app">
             here
           </CustomLink>

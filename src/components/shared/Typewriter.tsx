@@ -10,7 +10,7 @@ export default function TypeWriter({ text, interval = 0.1, ...props }: TypeWrite
   const [scope, animate] = useAnimate();
   useEffect(() => {
     const f = async () => {
-      await animate(".char", { opacity: [0, 1] }, { delay: stagger(interval) });
+      await animate(".char", { opacity: [0, 1], visibility: "visible" }, { delay: stagger(interval) });
       animate(".caret", { opacity: [0, 1, 0], visibility: "visible" }, { duration: 0.5, repeat: 4 });
     };
     f();
@@ -18,7 +18,7 @@ export default function TypeWriter({ text, interval = 0.1, ...props }: TypeWrite
   return (
     <p ref={scope} {...props}>
       {text.split("").map((c, i) => (
-        <span className="char" key={i}>
+        <span className="char invisible" key={i}>
           {c}
         </span>
       ))}
