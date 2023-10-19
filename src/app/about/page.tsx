@@ -62,7 +62,7 @@ export default function AboutPage() {
           I&apos;ve recently started focusing more on problem solving on platforms like{" "}
           <CustomLink target="_blank" className="text-blue-700" href="https://codeforces.com/profile/Mohamad_Taky">
             Codeforces
-          </CustomLink>
+          </CustomLink>{" "}
           and{" "}
           <CustomLink target="_blank" className="text-blue-700" href="https://leetcode.com/mohamadtaky2002">
             Leet code
