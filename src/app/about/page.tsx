@@ -18,7 +18,7 @@ export default function AboutPage() {
       </p>
       <p className="max-w-[70ch]">
         If you just want to view my resume, you can download it from{" "}
-        <CustomLink className="text-blue-700" href="images/developer-illustration.jpg" download>
+        <CustomLink className="text-blue-700" href="MohamadTakyResume.pdf" download>
           here.
         </CustomLink>
       </p>

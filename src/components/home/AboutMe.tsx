@@ -1,8 +1,9 @@
 import Button from "@/components/shared/Button";
+import CustomLink from "@/components/shared/CustomLink";
 import Section from "@/components/shared/Section";
 import Image from "next/image";
-import DeveloperIllustration from "public/images/developer-illustration.jpg";
 import Link from "next/link";
+import DeveloperIllustration from "public/images/developer-illustration.jpg";
 
 export default function AboutMe() {
   return (
@@ -25,9 +26,9 @@ export default function AboutMe() {
             </Button>
             <span>or</span>
             <Button className="max-md:mx-auto" asChild>
-              <a href="images/developer-illustration.jpg" download>
+              <CustomLink href="MohamadTakyResume.pdf" download>
                 Download resume
-              </a>
+              </CustomLink>
             </Button>
           </div>
         </article>
