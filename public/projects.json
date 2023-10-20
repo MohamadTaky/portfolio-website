@@ -14,6 +14,21 @@
     "screenshots": ["/images/projects/taky-chess-1.png"]
   },
   {
+    "id": 4,
+    "name": "Werdi",
+    "description": "Fullstack serverless web application built with Next.js 13 (app router), planetscale database (utilizing prisma orm), Tailwindcss and Radix UI for tracking islamic remembrances and completion consistency of a muslim similar to habit tracking applications.<br/>This website is still work in progress",
+    "homepage": "https://werdi.vercel.app",
+    "githubRepo": "https://github.com/MohamadTaky/werdi",
+    "tags": [
+      { "name": "Next.js", "link": "https://nextjs.org" },
+      { "name": "Radix UI", "link": "https://www.radix-ui.com" },
+      { "name": "Tailwindcss", "link": "https://tailwindcss.com" },
+      { "name": "Prisma", "link": "https://www.prisma.io" },
+      { "name": "Framer motion", "link": "https://www.framer.com/motion/" }
+    ],
+    "screenshots": ["/images/projects/werdi-1.png"]
+  },
+  {
     "id": 1,
     "name": "Sky Sentry",
     "description": "front end Weather web application built using react and Open&#8209;Meteo weather forecast API.",
@@ -21,7 +36,9 @@
     "githubRepo": "https://github.com/MohamadTaky/Sky-Sentry",
     "tags": [
       { "name": "React", "link": "https://react.dev" },
-      { "name": "Tailwindcss", "link": "https://tailwindcss.com" }
+      { "name": "Tailwindcss", "link": "https://tailwindcss.com" },
+      { "name": "Framer motion", "link": "https://www.framer.com/motion/" },
+      { "name": "D3.js", "link": "https://d3js.org" }
     ],
     "screenshots": ["/images/projects/sky-sentry-1.jpg"]
   },
@@ -35,7 +52,8 @@
       { "name": "Mongodb", "link": "https://www.mongodb.com" },
       { "name": "Express", "link": "https://expressjs.com" },
       { "name": "React", "link": "https://react.dev" },
-      { "name": "Node.js", "link": "https://nodejs.org" }
+      { "name": "Node.js", "link": "https://nodejs.org" },
+      { "name": "D3.js", "link": "https://d3js.org" }
     ],
     "screenshots": ["/images/projects/type-fusion-1.png"]
   },
@@ -45,6 +63,10 @@
     "description": "The popular game of Tetris recreated in the browser using vanilla JS (typescript), mobile support included.",
     "homepage": "https://taky-tetris.vercel.app",
     "githubRepo": "https://github.com/MohamadTaky/taky-tetris",
+    "tags": [
+      { "name": "TypeScript", "link": "https://www.typescriptlang.org" },
+      { "name": "Tailwindcss", "link": "https://tailwindcss.com" }
+    ],
     "screenshots": ["/images/projects/tetris-1.png"]
   }
 ]
