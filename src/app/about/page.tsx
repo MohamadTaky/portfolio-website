@@ -69,9 +69,9 @@ export default function AboutPage() {
           </CustomLink>{" "}
           and I&apos;m enjoying it.
           <br />
-          Although I don't consider myself a professional, I keep working on improving my skills and I&apos;m constantly trying to strike a
-          balance between web-development, problem solving and university studies and I invest time learning algorithms and data
-          structures to enhance my abilities.
+          Although I don&apos;t consider myself a professional, I keep working on improving my skills and I&apos;m constantly
+          trying to strike a balance between web-development, problem solving and university studies and I invest time learning
+          algorithms and data structures to enhance my abilities.
         </p>
         <p className="max-w-[70ch]">
           In the future, I aspire to participate in the International Collegiate Programming Contest - ICPC, maybe in the coming
