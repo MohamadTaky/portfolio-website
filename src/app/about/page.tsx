@@ -52,7 +52,7 @@ export default function AboutPage() {
           <CustomLink target="_blank" className="text-blue-700" href="https://wpu.edu.sy">
             WPU
           </CustomLink>{" "}
-          maintaining a GPA of 3.75 placing me as the top-ranking student among my colleagues.
+          maintaining a GPA of 3.68 placing me as the top-ranking student among my colleagues.
         </p>
       </article>
       <h2 className="w-fit border-b-2 border-black text-xl font-semibold">Personal Interests</h2>
