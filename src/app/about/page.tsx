@@ -69,7 +69,7 @@ export default function AboutPage() {
           </CustomLink>{" "}
           and I&apos;m enjoying it.
           <br />
-          Although I am currently not that great, I keep working on improving my skills and I&apos;m constantly trying to strike a
+          Although I don't consider myself a professional, I keep working on improving my skills and I&apos;m constantly trying to strike a
           balance between web-development, problem solving and university studies and I invest time learning algorithms and data
           structures to enhance my abilities.
         </p>
