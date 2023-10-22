@@ -2,7 +2,6 @@ import Section from "@/components/shared/Section";
 import Project from "../../components/projects/Project";
 import projects from "public/projects.json";
 import { Metadata } from "next";
-import Loader from "../loading";
 
 export const metadata: Metadata = {
   title: "Projects",
