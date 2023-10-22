@@ -3,7 +3,7 @@ import CustomLink from "@/components/shared/CustomLink";
 import Section from "@/components/shared/Section";
 import Image from "next/image";
 import Link from "next/link";
-import DeveloperIllustration from "public/images/developer-illustration.jpg";
+import PersonalImage from "public/images/personal-image.jpg";
 
 export default function AboutMe() {
   return (
@@ -32,7 +32,7 @@ export default function AboutMe() {
             </Button>
           </div>
         </article>
-        <Image className="rounded-md" src={DeveloperIllustration} alt="" />
+        <Image className="rounded-lg" src={PersonalImage} alt="personal-image" />
       </div>
     </Section>
   );
