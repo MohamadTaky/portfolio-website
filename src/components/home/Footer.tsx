@@ -44,7 +44,7 @@ export default function Footer() {
             <CustomLink
               target="_blank"
               className="text-current hover:text-white"
-              href="https://linkedin.com/in/mohamad-taky-740112255"
+              href="https://linkedin.com/in/mohamad-taky"
             >
               <LinkedinIcon className="mb-1 mr-2 inline-block fill-current stroke-current group-hover:text-blue-500" />
               Linkedin

@@ -41,7 +41,7 @@ export default function HeroSection() {
           </Link>
         </li>
         <li>
-          <Link target="_blank" href="https://linkedin.com/in/mohamad-taky-740112255">
+          <Link target="_blank" href="https://linkedin.com/in/mohamad-taky">
             <LinkedinIcon size="28" className="fill-gray-300 stroke-none transition hover:fill-blue-700" />
           </Link>
         </li>
