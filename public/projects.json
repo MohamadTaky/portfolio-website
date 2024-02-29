@@ -1,6 +1,6 @@
 [
   {
-    "id": 2,
+    "id": 0,
     "name": "Taky Chess",
     "description": "Online multiplayer chess game made with Next.js and web sockets using Pusher.js and Redis.",
     "homepage": "https://taky-chess.vercel.app",
@@ -14,36 +14,7 @@
     "screenshots": ["/images/projects/taky-chess-1.png"]
   },
   {
-    "id": 4,
-    "name": "Werdi",
-    "description": "Fullstack serverless web application built with Next.js 13 (app router), planetscale database (utilizing prisma orm), Tailwindcss and Radix UI for tracking islamic remembrances and completion consistency of a muslim similar to habit tracking applications.<br/>This website is still work in progress",
-    "homepage": "https://werdi.vercel.app",
-    "githubRepo": "https://github.com/MohamadTaky/werdi",
-    "tags": [
-      { "name": "Next.js", "link": "https://nextjs.org" },
-      { "name": "Radix UI", "link": "https://www.radix-ui.com" },
-      { "name": "Tailwindcss", "link": "https://tailwindcss.com" },
-      { "name": "Prisma", "link": "https://www.prisma.io" },
-      { "name": "Framer motion", "link": "https://www.framer.com/motion/" }
-    ],
-    "screenshots": ["/images/projects/werdi-1.png"]
-  },
-  {
     "id": 1,
-    "name": "Sky Sentry",
-    "description": "front end Weather web application built using react and Open&#8209;Meteo weather forecast API.",
-    "homepage": "https://sky-sentry.vercel.app",
-    "githubRepo": "https://github.com/MohamadTaky/Sky-Sentry",
-    "tags": [
-      { "name": "React", "link": "https://react.dev" },
-      { "name": "Tailwindcss", "link": "https://tailwindcss.com" },
-      { "name": "Framer motion", "link": "https://www.framer.com/motion/" },
-      { "name": "D3.js", "link": "https://d3js.org" }
-    ],
-    "screenshots": ["/images/projects/sky-sentry-1.jpg"]
-  },
-  {
-    "id": 0,
     "name": "Type Fusion",
     "description": "Type Fusion is a web application that tests typing speed and accuracy while giving an overview about typing performance, the app also features a simple leaderboard that lists the top ten users based on the score of their latest performed test.",
     "homepage": "https://typefusion.vercel.app",
@@ -58,7 +29,58 @@
     "screenshots": ["/images/projects/type-fusion-1.png"]
   },
   {
+    "id": 2,
+    "name": "Where in the world ?",
+    "description": "Next.js 13 web application that displays country information by utilizing restcountries api",
+    "homepage": "https://taky-where-in-the-world.vercel.app",
+    "githubRepo": "https://github.com/MohamadTaky/rest-countries-front-end-mentor",
+    "tags": [
+      { "name": "Next.js", "link": "https://nextjs.org" },
+      { "name": "Radix UI", "link": "https://www.radix-ui.com" },
+      { "name": "Tailwindcss", "link": "https://tailwindcss.com" },
+      { "name": "Framer motion", "link": "https://www.framer.com/motion/" }
+    ],
+    "screenshots": [
+      "/images/projects/where-in-the-world-1.png",
+      "/images/projects/where-in-the-world-2.png",
+      "/images/projects/where-in-the-world-3.png",
+      "/images/projects/where-in-the-world-4.png"
+    ]
+  },
+  {
     "id": 3,
+    "name": "Bohr model visualization",
+    "description": "3D visualization university project aims to visualize any atom found in the Periodic Table in 3D space using WebGL and THREE.js.",
+    "homepage": "https://bohr-model-visualization.vercel.app",
+    "githubRepo": "https://github.com/MohamadTaky/bohr-model-Visualization",
+    "tags": [
+      { "name": "TypeScript", "link": "https://www.typescriptlang.org" },
+      { "name": "Three.js", "link": "https://threejs.org" },
+      { "name": "Tailwindcss", "link": "https://tailwindcss.com" }
+    ],
+    "screenshots": [
+      "/images/projects/bohr-model-visualization-1.png",
+      "/images/projects/bohr-model-visualization-2.png",
+      "/images/projects/bohr-model-visualization-3.png",
+      "/images/projects/bohr-model-visualization-4.png"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Sky Sentry",
+    "description": "front end Weather web application built using react and Open&#8209;Meteo weather forecast API.",
+    "homepage": "https://sky-sentry.vercel.app",
+    "githubRepo": "https://github.com/MohamadTaky/Sky-Sentry",
+    "tags": [
+      { "name": "React", "link": "https://react.dev" },
+      { "name": "Tailwindcss", "link": "https://tailwindcss.com" },
+      { "name": "Framer motion", "link": "https://www.framer.com/motion/" },
+      { "name": "D3.js", "link": "https://d3js.org" }
+    ],
+    "screenshots": ["/images/projects/sky-sentry-1.jpg"]
+  },
+  {
+    "id": 5,
     "name": "Tetris",
     "description": "The popular game of Tetris recreated in the browser using vanilla JS (typescript), mobile support included.",
     "homepage": "https://taky-tetris.vercel.app",
